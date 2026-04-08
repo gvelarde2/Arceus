@@ -1,0 +1,50 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+MANIFEST
+
+# === Virtual environments ===
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# === Jupyter ===
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# === Testing & coverage ===
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# === IDEs ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === OS ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Lab data ===
+# Measurement output goes to C:\Lab_Data\ (outside repo) so nothing to exclude here.
+# If you ever add a local data/ subfolder with large run data, add patterns below:
+# data/runs/
+# data/**/*.csv   ← uncomment to exclude all CSVs except committed waveform files
+
+# === VISA / instrument logs ===
+*.log
+visa.log

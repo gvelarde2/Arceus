@@ -1,0 +1,26 @@
+{
+    "SMU1": {
+        "voltage_name" : "VF",
+        "current_name" : "IF",
+        "channel_function" : "VAR1",
+        "channel_mode" : "V",
+        "series_resistance" : "0OHM"
+    },
+
+    "SMU3": {
+        "voltage_name" : "V",
+        "current_name" : "I",
+        "channel_function" : "CONS",
+        "channel_mode" : "COMM"
+  
+    },
+
+    "VAR1": {
+        "start" : 0,
+        "stop" : 1,
+        "step" : 0.01,
+        "spacing" : "LINEAR",
+        "compliance" : 0.1
+
+    }
+}
